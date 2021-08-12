@@ -1,0 +1,25 @@
+:host {
+    height: 80px;
+    display: flex;
+    background: #E5E5E5;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 65%;
+}
+
+app-login {
+    width: 20%;
+}
+
+h1.logo {
+    padding-top: 4px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
