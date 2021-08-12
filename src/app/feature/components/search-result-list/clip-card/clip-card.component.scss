@@ -1,0 +1,31 @@
+.clip-card {
+    width: 263px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    border-bottom: 5px solid #2F80ED;
+    border-radius: 0 0 5px 5px;
+    background: #E5E5E5;
+}
+
+.clip-card__thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.clip-card__like-panel {
+    width: 100%;
+}
+
+.clip-card__title {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #4F4F4F;
+    font-weight: 700;
+    font-size: 20px;
+}

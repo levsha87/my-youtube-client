@@ -1,0 +1,16 @@
+.like-panel {
+    display: flex;
+    gap: 15px;
+}
+
+figure {
+    display: flex;
+    gap: 4px;
+    margin: 0;
+}
+
+figcaption {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
